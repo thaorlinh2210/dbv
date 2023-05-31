@@ -37,13 +37,22 @@ function App() {
             optimize productivity with the Roster App.
           </p>
 
-          <iframe
+          {/* <iframe
             src={`${process.env.PUBLIC_URL}/php/message.php`}
             title="PHP Page"
-          />
+          /> */}
+          <button onclick="window.location.href='https://w3docs.com';">
+            Click Here
+          </button>
+
+          <a href="https://w3docs.com">
+            djksvnjk
+            {/* <button className="App-button">djnf</button> */}
+          </a>
 
           <a href="message.php">
-            <button className="App-button">djkvdfvsnf</button>
+            djksvnjk
+            {/* <button className="App-button">djnf</button> */}
           </a>
         </main>
       </div>
